@@ -1,6 +1,7 @@
 {
   "name": "release-helper",
   "version": "1.0.0",
+  "description": "Release helper CLI",
   "type": "module",
   "bin": {
     "release-helper": "./bin/release.js"
@@ -8,5 +9,12 @@
   "dependencies": {
     "chalk": "^5.6.2",
     "inquirer": "^12.10.0"
-  }
+  },
+  "keywords": [
+    "cli",
+    "release",
+    "deploy"
+  ],
+  "author": "Lucas",
+  "license": "MIT"
 }
