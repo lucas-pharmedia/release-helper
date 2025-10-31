@@ -1,0 +1,12 @@
+{
+  "name": "release-helper",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "release-helper": "./bin/release.js"
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "inquirer": "^12.10.0"
+  }
+}
