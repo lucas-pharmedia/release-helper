@@ -63,7 +63,7 @@ async function handleBumpVersion() {
     execSync(`npm version ${bumpType}`, { stdio: "inherit" });
 
     logInfo(`推送 branch: ${branchName}`);
-    execSync(`git push origin ${branchName}`, { stdio: "inherit" });
+    execSync(`git push origin ${branchName} --tags`, { stdio: "inherit" });
 
     logSuccess("版本 bump 完成 🎉");
   } catch (err) {
