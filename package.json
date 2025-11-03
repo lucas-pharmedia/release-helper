@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Release helper CLI",
   "type": "module",
+   "scripts": {
+    "link:local": "npm link && pnpm link -g"
+  },
   "bin": {
     "release-helper": "./bin/release.js"
   },
